@@ -36,6 +36,13 @@ search_engines = [
         "link_attr": "href"
     },
     {
+        "name": "Qwant",
+        "url": "https://www.qwant.com/?q={query}",
+        "results_class": "result--url",
+        "link_tag": "a",
+        "link_attr": "href"
+    },
+    {
         "name": "Yandex",
         "url": "https://www.yandex.com/search/?text={query}",
         "results_class": "organic__url",
@@ -88,6 +95,27 @@ search_engines = [
         "name": "Quora",
         "url": "https://www.quora.com/search?q={query}",
         "results_class": "pagedlist_item",
+        "link_tag": "a",
+        "link_attr": "href"
+    },
+    {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/w/index.php?title=Special:Search&search={query}",
+        "results_class": "mw-search-results",
+        "link_tag": "a",
+        "link_attr": "href"
+    },
+    {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/results?search_query={query}",
+        "results_class": "yt-lockup-content",
+        "link_tag": "a",
+        "link_attr": "href"
+    },
+    {
+        "name": "IMDb",
+        "url": "https://www.imdb.com/find?q={query}&s=tt",
+        "results_class": "findResult",
         "link_tag": "a",
         "link_attr": "href"
     },
